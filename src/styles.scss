@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --main: #953e46;
+  --second: #f4e3cf;
+}
+
+.text-second{
+  color: var(--second);
+}
+
+html {
+  background-color: var(--main);
+  border: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}

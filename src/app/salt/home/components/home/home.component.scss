@@ -1,0 +1,38 @@
+.right-el{
+  border-bottom: 4px solid var(--second);
+}
+
+.large-card{
+  height: 410px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 2px;
+  background-color: var(--second);
+  color: var(--main);
+}
+
+.small-card{
+  height: 200px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 2px;
+  background-color: var(--second);
+  color: var(--main);
+}
+
+.card-last{
+  height: 200px;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 2px;
+  background-color: var(--main);
+  color: var(--second);
+  border: 2px solid var(--second);
+}
+
+.dot {
+  height: 40px;
+  width: 40px;
+  border: 2px solid var(--second);
+  border-radius: 50%;
+}

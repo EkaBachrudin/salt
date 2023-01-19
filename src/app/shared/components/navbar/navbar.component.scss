@@ -1,0 +1,94 @@
+.navbar{
+  background-color: var(--main);
+
+  .navbar-brand{
+    color: var(--second);
+  }
+  .nav-link{
+    color: var(--second);
+  }
+
+  .btn-upload{
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-arrow-up'%3E%3Cline x1='12' y1='19' x2='12' y2='5'%3E%3C/line%3E%3Cpolyline points='5 12 12 5 19 12'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 12%;
+    background-color: var(--second);
+    border-radius: 2px;
+    display: flex;
+    padding: 10px 30px;
+    padding-left:40px ;
+  }
+  .btn-profile{
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-user'%3E%3Cpath d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'%3E%3C/path%3E%3Ccircle cx='12' cy='7' r='4'%3E%3C/circle%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: var(--second);
+    border-radius: 2px;
+    display: flex;
+    padding: 22px 22px;
+    padding-left:40px ;
+  }
+}
+
+.search{
+  width: 60%;
+}
+
+.cusinput{
+  background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='17' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-search'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 95%;
+
+  border-radius: 2px;
+
+  background-color:  var(--second);
+  color: var(--main);
+  padding: 11px 30px;
+  width: 80%;
+  border: none;
+}
+
+.navbar-nav{
+  border-top: 1px solid var(--second);
+  border-bottom: 1px solid var(--second);
+  padding: 5px 0;
+  .nav-link{
+    span{
+      display: inline-block;
+      transform: rotate(30deg);
+      margin-left: 20px;
+    }
+  }
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.mobile{
+      display: none;
+}
+
+@media screen and (max-width: 991px) {
+      .nav-link{
+      span{
+        visibility: hidden;
+      }
+    }
+     .upload{
+      display: none;
+    }
+    .profile{
+      display: none;
+    }
+    .search{
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+}
